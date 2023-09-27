@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form action="login.php" method="POST">
+        <fieldset>
+            <legend>Form</legend>
+            <p>
+                <label>Nama :</label>
+                <input type="text" name="username" placeholder="username..." />
+            </p>
+            <p>
+                <label>NIM :</label>
+                <input type="password" name="password" placeholder="password..." />
+            </p>
+            <p>
+                Tanggal : <input type="date" name="tanggal">
+            </p>
+            <form action="proses.php" method="get">
+              <p> Alamat : <textarea name="alamat" rows="5" cols="21"></textarea>
+              </p>
+              <p>
+                <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Simpan" />
+            </p>
+        </fieldset>
+    </form>
+</body>
